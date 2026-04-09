@@ -1,0 +1,10 @@
+name: Test YAML
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello ya Shenawy 😄"
